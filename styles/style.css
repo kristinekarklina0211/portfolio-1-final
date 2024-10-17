@@ -1,0 +1,56 @@
+@import "./buttons.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./projects.css";
+@import "./competencies.css";
+@import "./services.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    background: #000;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.background-image {
+    width: 100%;
+    background-image: url("../resources/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+/* Text styles */
+
+h1,
+h2,
+h3,
+a,
+div {
+    font-weight: 400;
+}
+
+h1 {
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}

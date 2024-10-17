@@ -1,0 +1,22 @@
+.hero {
+    padding-bottom: 94px;
+}
+
+.hero__paragraph {
+    margin-bottom: 29px;
+    padding-left: 6px;
+
+    max-width: 430px;
+
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.hero__title {
+    max-width: 980px;
+    padding: 15px 30px 30px;
+
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}

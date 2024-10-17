@@ -1,0 +1,23 @@
+.projects__btn {
+    display: block;
+
+    width: 582px;
+    height: 153px;
+
+    border-radius: 10px;
+    background: #1BFF07;
+
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.9px;
+
+    text-decoration: none;
+}
+
+.projects__btn:hover {
+    background: #000;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+}
